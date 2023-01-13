@@ -84,6 +84,7 @@ collaction-container
   border-radius: 5px;
   box-shadow: 6px 6px 8px ;
 }
+
 .col-title{
   font-size: 28px;
   font-weight: 500;
@@ -164,6 +165,9 @@ collaction-container
   }
   .collaction{
     box-shadow: 1px 1px 2px ;
+  }
+  .collaction img{
+    width:calc(100% - 5px) ;
   }
 }
 
