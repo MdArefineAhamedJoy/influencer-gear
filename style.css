@@ -152,4 +152,18 @@ collaction-container
     box-shadow: 0 0 0;
   }
   /* collection items responsive section  */
+  .collaction-container{
+    width: 100%;
+    margin: 0 auto;
+  }
+  .colections{
+    grid-template-columns: repeat(1, 1fr);
+    grid-row-gap:15px ;
+    width: 100%;
+    padding: 15px;
+  }
+  .collaction{
+    box-shadow: 1px 1px 2px ;
+  }
 }
+
