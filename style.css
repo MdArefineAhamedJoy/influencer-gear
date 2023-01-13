@@ -129,7 +129,19 @@ collaction-container
 .product-info .btn-primary{
   border-radius: 5px;
 }
-
+/* ------------
+footer setction style  
+------------------------*/
+.footer-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40vh;
+  background-image: linear-gradient(to right, rgb(0, 0, 69)  ,#000000 );
+}
+.contend-footer {
+  text-align: center;
+}
 /*----------------------
 ------------- mediuy quarey ------
 --------------------------------------- */
@@ -220,5 +232,14 @@ collaction-container
     text-align: center;
     margin:10px 0px;
     padding: 10px;
+  }
+  /* footer style  */
+  .footer-container{
+    height: 30vh;
+    width: 100%;
+    background-color: #000000;
+  }
+  .contend-footer{
+    width: 50%;
   }
 }
