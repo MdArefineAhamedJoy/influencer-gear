@@ -103,6 +103,32 @@ collaction-container
 .info-text {
   margin-top: 5px;
 }
+/********************
+  ........... futuer-produts style  */
+.futuer-produts {
+  display: flex;
+  margin-top: 100px;
+  align-items: center;
+  gap: 90px;
+}
+.product-info{
+  width: 610px;
+}
+.product-title {
+  font-weight: 700;
+  font-size: 38px;
+  margin-bottom: 16px;
+  color: #0a0826;
+}
+.product-dsc {
+  font-weight: 700;
+  font-size: 16px;
+  color: #6C6C6C;
+  margin-right: 35%;
+}
+.product-info .btn-primary{
+  border-radius: 5px;
+}
 
 /*----------------------
 ------------- mediuy quarey ------
@@ -155,7 +181,7 @@ collaction-container
     width: 100%;
     margin: 0 auto;
   }
-  .section-title{
+  .section-title {
     margin-bottom: 1rem;
     font-size: 20px;
   }
@@ -169,6 +195,30 @@ collaction-container
     box-shadow: 1px 1px 2px;
   }
   .collaction img {
-    width: calc(100% - 10px);
+    width: calc(100% - 5px);
+  }
+  /* ...................futuer-produts ........*/
+  .futuer-produts{
+    flex-direction: column-reverse;
+  }
+  .product-img {
+    width: 100%;
+  }
+  .product-img img{
+    width: 100%;
+  }
+  .product-title {
+    font-size: 28px;
+    margin: 0;
+    text-align: center;
+    padding: 10px;
+  }
+  .product-info{
+    width: 100%;
+  }
+  .product-dsc {
+    text-align: center;
+    margin:10px 0px;
+    padding: 10px;
   }
 }
