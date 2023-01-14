@@ -20,6 +20,28 @@
   color: #ffffff;
   font-weight: 700;
 }
+
+
+/*------------------ nav bar style
+---------------------------------  */
+nav{
+  display: flex;
+  justify-content:space-between ;
+  color: #3A3A3A;
+  padding-top: 70px;
+  width: 90%;
+  margin: 0 auto 70px;
+}
+nav ul{
+  display: flex;
+  margin-left: 30px;
+}
+nav li{
+  margin-right: 30px;
+  list-style: none;
+  font-size: 16px ;
+  font-weight: 600;
+}
 /*-----------------------------------
  banner section  
  ---------------------------------
@@ -151,6 +173,21 @@ footer setction style
 ------------- mediuy quarey ------
 --------------------------------------- */
 @media screen and (max-width: 576px) {
+
+  /*   navbar style     */
+  .hide{
+    display: none;
+  }
+  nav {
+    align-items: center;
+    margin: 0 0 35px;
+    padding: 35px 5px 0;
+    width: 100%;
+  }
+  nav li{
+    margin: 0;
+  }
+/* banner style start  */
   .banner-container {
     flex-direction: column-reverse;
   }
