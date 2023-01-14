@@ -49,6 +49,11 @@
   width: 50%;
   margin-left: 50px;
 }
+.banner-img img{
+  background-color: beige;
+  border-radius: 50%;
+  border: 5px solid whitesmoke;
+}
 /*-----------------
  brand-containr style
  ---------------------- */
