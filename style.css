@@ -188,8 +188,15 @@ footer setction style
   nav {
     align-items: center;
     margin: 0 0 35px;
+    justify-content: space-between;
     padding: 35px 5px 0;
     width: 100%;
+  }
+  nav > h1{
+    font-size: 20px;
+  }
+  nav ul{
+    margin: 0;
   }
   nav li{
     margin: 0;
